@@ -1,0 +1,70 @@
+toolbar:			 	Raised Gradient Diagonal Bevel1
+toolbar.label:				Raised Gradient Diagonal Bevel1
+toolbar.button:				Raised Gradient Diagonal Bevel1
+toolbar.button.pressed:			Raised Gradient Diagonal Bevel1
+toolbar.clock:				Raised Gradient Diagonal Bevel1
+
+toolbar.color:				rgb:10/10/10
+toolbar.colorTo:			rgb:10/10/10
+toolbar.label.color:			rgb:10/10/10
+toolbar.label.colorTo:			rgb:20/20/20
+toolbar.button.color:			rgb:30/30/30
+toolbar.button.colorTo:			rgb:00/00/00
+toolbar.button.pressed.color:		rgb:00/00/00
+toolbar.button.pressed.colorTo:		rgb:50/50/50
+toolbar.clock.color:			rgb:10/10/10
+toolbar.clock.colorTo:			rgb:20/20/20
+toolbar.textColor:			rgb:f0/f0/f0
+
+window.focus:				Raised Horizontal Gradient Bevel1
+window.unfocus:				Raised Horizontal Gradient Bevel1
+window.focus.button:			Raised Diagonal Gradient Bevel1
+window.unfocus.button:			Raised Diagonal Gradient Bevel1
+window.button.pressed:			Raised Diagonal Gradient Bevel1
+window.handle:				Raised Diagonal Gradient Bevel1
+window.frame:				Raised Solid Bevel1
+
+window.focus.color:			rgb:10/10/10
+window.focus.colorTo:			rgb:10/10/10
+window.focus.textColor:			rgb:f0/f0/f0
+window.focus.button.color:		rgb:40/40/40
+window.focus.button.colorTo:		rgb:00/00/00
+window.button.pressed.color:		rgb:00/00/00
+window.button.pressed.colorTo: 		rgb:50/50/50
+
+window.frame.color:			rgb:00/00/00
+
+window.unfocus.textColor:		rgb:68/68/68
+window.unfocus.color:			rgb:10/10/10
+window.unfocus.colorTo:			rgb:10/10/10
+window.unfocus.button.color:		rgb:40/40/40
+window.unfocus.button.colorTo:		rgb:00/00/00
+
+
+menu.title:				Raised	Diagonal Gradient Bevel1
+menu.frame:				Raised  Diagonal Gradient Bevel1
+
+menu.title.color:			rgb:10/10/10
+menu.title.colorTo:			rgb:10/10/10
+menu.title.textColor:			rgb:f0/f0/f0
+
+menu.frame.color:			rgb:10/10/10
+menu.frame.colorTo:			rgb:10/10/10
+menu.frame.highlightColor:		rgb:40/40/40
+menu.frame.textColor:			rgb:d0/d0/d0
+menu.frame.hiTextColor:			rgb:f0/f0/f0
+
+borderColor:				black
+
+bevelWidth:				3
+handleWidth:				5
+
+titleJustify:				centerjustify
+menuJustify:				leftjustify
+
+moveStyle:				Opaque
+
+titleFont:	-sun-fixed-medium-r-normal--12-*,-sun-roundgothic-medium-r-normal--12-*
+menuFont:	-sun-fixed-medium-r-normal--12-*,-sun-roundgothic-medium-r-normal--12-*
+
+rootCommand:            xv -root -quit -max ~/.blackbox/backgrounds/black.jpg

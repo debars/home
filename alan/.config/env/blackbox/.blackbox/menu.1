@@ -1,0 +1,89 @@
+#
+# SuSE Blackbox menu file - Henne Vogelsang
+#
+# Version 0.1   08.04.2003
+#
+# http://www.suse.de/feedback
+
+[begin] (SuSE Blackbox Menu)
+
+   [submenu] (Xterms) {}
+      #-font -adobe-courier-medium-r-*-*-14-*-*-*-*-*-*-*
+      # see /usr/lib/X11/rgb.txt for color choices
+      [exec] (navajo 60) {xterm -bg "navajo white" -fg black -geometry 132x60}
+      [exec] (black 60) {xterm -fg "navajo white" -bg black -geometry 132x60}
+      [exec] (navajo 40) {xterm -bg "navajo white" -fg black -geometry 132x40}
+      [exec] (black 40) {xterm -fg "navajo white" -bg black -geometry 132x40}
+      [exec] (navajo 20) {xterm -bg "navajo white" -fg black -geometry 132x20}
+      [exec] (black 20) {xterm -fg "navajo white" -bg black -geometry 132x20}
+      [exec] (black 10) {xterm -fg "navajo white" -bg black -geometry 180x10}
+   [end]
+
+   [submenu] (Development) {}
+   		[exec] (eclipse) {/home/alan/tools/java/eclipse/eclipse}
+   		[exec] (rm_vizmet)   {edrmviz}
+   		[exec] (rm_tear)     {edtear}
+      [exec] (sun one studio) {/home/alan/s1studio_jdk/s1studio/bin/runide.sh}
+   		[exec] (debugger)		 {gdbg}
+   [end]
+
+   [exec] (Firefox) {/usr/local/firefox/firefox}
+
+   [exec] (Thunderbird) {/usr/local/thunderbird/thunderbird}
+
+   [submenu] (Tools) {}
+         [exec] (Calendar)   {korganizer}
+         [exec] (kcalc) {kcalc}
+         [exec] (gcalc) {gnome-calculator}
+         [exec] (pdf viewer) {/home/alan/bin/acroread}
+         [exec] (xviewer)    {xzgv}
+         [exec] (fileViewer)    {/opt/kde3/bin/konqueror}
+         [exec] (font select) {/usr/bin/X11/xfontsel}
+         [exec] (Etherape)   {sudo etherape}
+         [exec] (Ethereal)   {sudo ethereal}
+         [exec] (dialup)   {dial}
+   [end]
+
+   [submenu] (Office) {}
+      [exec] (Writer) {OOo-writer}
+      [exec] (Spreadsheet) {OOo-calc}
+      [exec] (Presentation) {OOo-impress}
+      [exec] (Draw) {OOo-draw}
+      [exec] (GIMP) {gimp}
+      [exec] (Diagram Editor) {dia}
+   [end]
+
+   [submenu] (Multimedia) {}
+      [submenu] (Audio) {}
+         [exec] (Xmms) {xmms}
+         [exec] (grip) {/opt/gnome/bin/grip}
+         [exec] (TerminatorX) {terminatorX}
+         [exec] (Alsamixer) {alsamixergui}
+         [exec] (Gamix) {gamix}
+      [end]
+      [submenu] (TV/Video) {}
+         [exec] (RealPlayer) {realplay}
+      [end]
+      [exec] (cd/dvd burn) {sudo /opt/kde3/bin/k3b}
+   [end]
+
+   [submenu] (Administration) {}
+      [exec] (YaST) {xterm -title "Please Enter the Root Password" -geometry 40x5 -e "sux - -c yast2"}
+      [exec] (SaX2) {xterm -title "Please Enter the Root Password" -geometry 40x5 -e "sux - -c sax2"}
+      [exec] (Root Xterm) {xterm -title "Please Enter the Root Password" -bg red -fg black -e sux -}
+   [end]
+
+   [submenu] (Blackbox) {}
+      [config] (Configuration)
+      [workspaces] (Workspace)
+      [submenu] (Styles) {Choose a style...}
+         [stylesdir] (/home/alan/.blackbox/styles)
+      [end]
+      [exec] (bbconf)  {bbconf}
+   [end]
+
+   [exec] (Run Command) {bbrun -a -w}
+   [exec] (Lock Screen) {xlock}
+   [restart] (Restart) {}
+   [exit] (Logout)
+[end]

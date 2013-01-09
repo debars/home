@@ -1,0 +1,10 @@
+#!/bin/bash
+
+channel=`iwconfig 2>/dev/null|grep Freq|cut -f 3 -d':'|cut -f1 -d' '`
+
+[[ -z "$channel" ]] && {
+	echo -n ""
+} || {
+	echo -n $channel
+}
+

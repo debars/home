@@ -1,0 +1,558 @@
+! Stylefile for blackbox and openbox 4 Windows (+)
+! Template created by Pitkon
+
+! -- VARIOUS INFO --
+
+style.name:					Siberia
+style.author:					Pitkon
+style.date:					Apr 9, 2011
+style.credits:                      	 
+style.comments:				Style based on the wallpaper "Siberia" by Dogbox Studio (http://www.dogbox-studio.com) with their permission
+
+! -- BACKGROUND --
+
+rootCommand:				    bsetbg -f "/home/alan/.blackbox/styles/siberia/Siberia.jpg"
+
+!rootCommand:					 bsetbg -solid #203855
+
+! -- TOOLBAR --
+! -- a. The Toolbar --
+
+toolbar.appearance: 				raised gradient diagonal border
+!toolbar.backgroundColor: 		
+toolbar.color1:					#dce6ef
+toolbar.color.splitto:			#fcf7f4
+toolbar.color2:					#c4d7e6
+toolbar.colorto.splitto:		#7a7879
++ toolbar.border.appearance:			
+toolbar.borderColor:			#2b3336
+toolbar.borderWidth:				2
++ toolbar.border.highlight:
++ toolbar.border.shadow:			grey20
+toolbar.alignment:				center
+toolbar.font:					Gill Sans MT
+toolbar.fontHeight:				24
+toolbar.fontWeight:				bold
+toolbar.textColor:				#d8d6db
+toolbar.marginWidth:				3
+toolbar.shadowColor:			black
+toolbar.outlinecolor:		    #69757e
+toolbar.shadowx:				2	
+toolbar.shadowy:				2
++ toolbar.shadowtint:				black
++ toolbar.interlace.color:	
+
+! -- b. Toolbar Label --
+
+toolbar.label.appearance:		parentrelative
+!toolbar.label.backgroundColor: 		
+toolbar.label.color1:			#718181
+toolbar.label.color.splitto:	#c5e3eb
+toolbar.label.color2:			#000000
+toolbar.label.colorto.splitto:	#a1b6b9
++ toolbar.label.border.appearance:
+toolbar.label.borderColor: 			black
+toolbar.label.borderWidth:			2
++ toolbar.label.border.highlight:
++ toolbar.label.border.shadow:
+toolbar.label.alignment:
+toolbar.label.font:				vixar asci
+toolbar.label.fontHeight:
+toolbar.label.fontWeight:
+toolbar.label.textColor:		#546d8b
+toolbar.label.marginWidth:
+toolbar.label.shadowColor:		black
+toolbar.label.outlineColor:	   black 
+toolbar.label.shadowx:				2
+toolbar.label.shadowy:				2
++ toolbar.label.shadowtint:
++ toolbar.label.interlace.color:
+
+! -- c. Toolbar Window Label --
+
+toolbar.windowlabel.appearance:			raised gradient	diagonal border
+!toolbar.windowlabel.backgroundColor: 
+toolbar.windowlabel.color1:				#4d565d
+toolbar.windowlabel.color.splitto:		#f3e192
+toolbar.windowlabel.color2:				#c2c6d2
+toolbar.windowlabel.colorto.splitto:	#f9ad26
++ toolbar.windowlabel.border.appearance:	
+toolbar.windowlabel.borderColor:		#482b27
+toolbar.windowlabel.borderWidth:		1
++ toolbar.windowlabel.border.highlight:
++ toolbar.windowlabel.border.shadow:		grey40
+toolbar.windowlabel.alignment:			center
+toolbar.windowlabel.font:			hoog0553-hybrid
+toolbar.windowlabel.fontHeight:			12
+toolbar.windowlabel.fontWeight:			bold
+toolbar.windowlabel.textColor:			white
+toolbar.windowlabel.marginWidth:		9
+toolbar.windowlabel.shadowColor:		#9c6d35
+toolbar.windowlabel.shadowx:			2		
+toolbar.windowlabel.shadowy:			2
+toolbar.windowlabel.outlinecolor:       black
++ toolbar.windowlabel.shadowtint:
++ toolbar.window.label.interlace.color:
+
+! -- d. Toolbar Clock --
+
+toolbar.clock.appearance:		   raised gradient splitvertical border
+!toolbar.clock.backgroundColor: 
+toolbar.clock.color1:			   #bdcfdd
+toolbar.clock.color.splitto:	   #e2ecf5
+toolbar.clock.color2:			   #708eb0
+toolbar.clock.colorto.splitto:	   #a7becc
++ toolbar.clock.border.appearance:
+toolbar.clock.borderColor:			#69757e
+toolbar.clock.borderWidth:			1  
++ toolbar.clock.border.highlight:
++ toolbar.clock.border.shadow:
+toolbar.clock.alignment:			center
+toolbar.clock.font:				hoog0553-hybrid
+toolbar.clock.fontHeight:			12
+toolbar.clock.fontWeight:			bold
+toolbar.clock.textColor:		black
+toolbar.clock.marginWidth:			5
+toolbar.clock.shadowColor:			white
+!toolbar.clock.outlinecolor:	     black
+toolbar.clock.shadowx:				2
+toolbar.clock.shadowy:				2
++ toolbar.clock.shadowtint:
++ toolbar.clock.interlace.color:
+
+! -- e. Toolbar Buttons --
+
+toolbar.button.appearance:			raised gradient vertical border
+!toolbar.button.backgroundColor:
+toolbar.button.color1:				white
+toolbar.button.color.splitto:		#fff7b6
+toolbar.button.color2:				#3c4349
+toolbar.button.colorto.splitto:		#c17c31
++ toolbar.button.border.appearance:		sunken
+toolbar.button.borderWidth:			1
+toolbar.button.borderColor:			#69757e
++ toolbar.button.border.highlight:
++ toolbar.button.border.shadow:			grey80
+toolbar.button.foregroundColor:			white
+toolbar.button.marginWidth:			10
++ toolbar.button.interlace.color:
+
+toolbar.button.pressed.appearance:		raised gradient vertical border
+!toolbar.button.pressed.backgroundColor: cdcdcd
+toolbar.button.pressed.color1:			black
+toolbar.button.pressed.color.splitto:	#6b707e
+toolbar.button.pressed.color2:			grey60
+toolbar.button.pressed.colorto.splitto:	#1b202e
+toolbar.button.pressed.foregroundVColor: white
++ toolbar.button.pressed.border.appearance:
+toolbar.button.pressed.borderWidth:		2
+toolbar.button.pressed.borderColor:		black
++ toolbar.button.pressed.border.highlight:
++ toolbar.button.pressed.border.shadow:	
+toolbar.button.pressed.foregroundColor:		black
+toolbar.button.pressed.outlinecolor: black
+toolbar.button.pressed.shadowcolor:	black
+toolbar.button.pressed.shadowx:	1
+toolbar.button.pressed.shadowy:	1
++ toolbar.button.pressed.interlace.color:
+
+! -- 2. THE MENU --
+
+! -- a. Menu Title --
+		
+menu.title.appearance:				raised gradient splitvertical border
+!menu.title.backgroundColor:
+menu.title.color1:			   #bdcfdd
+menu.title.color.splitto:	   #e2ecf5
+menu.title.color2:			   #708eb0
+menu.title.colorto.splitto:	   #a7becc
+!+ menu.title.border.appearance:
+menu.title.borderWidth:				2
+menu.title.borderColor:				black
+!+ menu.title.border.highlight:
+!+ menu.title.border.shadow:
+!menu.title.foregroundColor:
+menu.title.textColor:			 #4d565d
+menu.title.font:				trebuchet ms
+menu.title.fontHeight:				26
+menu.title.fontWeight:				bold
+menu.title.alignment:				center
+menu.title.marginWidth:				4
+menu.title.shadowColor:				black
+menu.title.shadowx:				1
+menu.title.shadowy:				1
+menu.title.outlinecolor:    black   
+!+ menu.title.shadowtint:
+!+ menu.title.interlace.color:
+
+! -- b. Menu Frame --
+
+menu.frame.appearance:				raised gradient horizontal border
+!menu.frame.backgroundColor:	#cdcdcd
+menu.frame.color1:				#c2c6d2
+menu.frame.color.splitto:		#f3a828
+menu.frame.color2:			   	#4d565d
+menu.frame.colorto.splitto:		#953100
++ menu.frame.border.appearance:
+menu.frame.borderWidth:			1
+menu.frame.borderColor:			#423930
++ menu.frame.border.highlight:
++ menu.frame.border.shadow:
+menu.frame.foregroundColor:
+menu.frame.textColor:			white
+menu.frame.font:				Gill Sans MT
+menu.frame.fontHeight:				26
+menu.frame.fontWeight:			 normal
+menu.frame.alignment:			 center
+menu.frame.marginWidth:			0
+menu.frame.shadowColor:			black
+menu.frame.shadowx:				2
+menu.frame.shadowy:				2
+menu.frame.outlinecolor:   black
++ menu.frame.shadowtint:
++ menu.frame.interlace.color:
+
+! -- c. Menu Active (Hilite) --
+
+menu.active.appearance:				raised gradient pyramid border
+! menu.active.backgroundColor:
+menu.active.color1:				#55595c
+menu.active.color.splitto:		#e0dfe7
+menu.active.color2:				#a05f64
+menu.active.colorto.splitto:	#aaaab2
++ menu.active.border.appearance:
+menu.active.borderWidth:		   2
+menu.active.borderColor:		 black
++ menu.active.border.highlight:
++ menu.active.border.shadow:
+menu.active.foregroundColor:
+menu.active.textColor:			  white
+menu.active.font:				 ar	berkley
+menu.active.fontHeight:				16
+menu.active.fontWeight:				normal
+menu.active.alignment:				center
+menu.active.marginWidth:			4
+menu.active.shadowColor:			black
+menu.active.outlinecolor:			black
+menu.active.shadowx:				1
+menu.active.shadowy:				1
++ menu.active.shadowtint:
++ menu.active.interlace.color:
+
+! -- d. Menu Bullets --
+
+menu.bullet:					bitmap			 
+menu.bullet.position:				right
+menu.frame.bulletColor:			   white
+menu.active.bulletColor:			black
+menu.bullet.shadowColor:			
++ menu.bullet.interlace.color:	
+
+
+! -- e. Volume Declarations --
+
+menu.volume.appearance:			flat gradient vertical border        
+!menu.volume.backgroundColor:
+menu.volume.color1:				white
+menu.volume.color.splitto:		#32361b
+menu.volume.color2:				#b3bdc7
+menu.volume.colorto.splitto:	#c8c775
+menu.volume.textColor:			white
+menu.volume.font:				
+menu.volume.fontHeight:				18
+menu.volume.fontWeight:				normal
+menu.volume.shadowColor:		black
+menu.volume.shadowx:				2
+menu.volume.shadowy:				2
+menu.volume.outlinecolor:	    black
++ menu.volume.shadowtint:
++ menu.volume.border.appearance:
+menu.volume.borderColor:		  black
+menu.volume.borderWidth:			1
++ menu.volume.border.highlight:
++ menu.volume.border.shadow:
++ menu.volume.interlace.color:
+menu.volume.marginWidth:			3
+
+
+! -- f. Separators --
+
++ menu.separator.border.appearance:
+menu.separator.borderColor:	black
++ menu.separator.border.highlight:
++ menu.separator.border.shadow:
+menu.separator.shadowColor:	#a6c2c6
+menu.separator.shadowwidth:	1
+menu.separator.shadowx:	 2
+menu.separator.shadowy: 2
++ menu.separator.shadowtint:
+menu.separator.borderWidth:	2
++ menu.separator.interlace.color:
+
+! -- f1. menu grip --
+! NOT IMPLEMENTED YET
+
+
+! -- g. Various --
+
++ menu.overlap:
+
+
+! -- 3. THE WINDOWS -
+! -- FOCUSED WINDOWS --
+
+! -- a. Focused Window Title --
+
+window.marginwidth:	1
+window.title.focus.appearance:			raised gradient diagonal border
+!window.title.focus.backgroundColor:
+window.title.focus.color1:			   #b3bdc7
+window.title.focus.color.splitto:	   #ec9e0d
+window.title.focus.color2:			   #55595c
+window.title.focus.colorto.splitto:	   #fddd8d
++ window.title.focus.border.appearance:
+window.title.focus.borderWidth:			1
+window.title.focus.borderColor:		   black
++ window.title.focus.border.highlight:
++ window.title.focus.border.shadow:
+window.title.marginWidth:			3
++ window.title.focus.interlace.color:
+
+! -- b. Focused Window Label --
+
+window.label.focus.appearance:		   parentrelative
+! window.label.focus.backgroundColor:	
+window.label.focus.color1:			   #8c5109
+window.label.focus.color.splitto:	   #f3e192
+window.label.focus.color2:			   #fee17b
+window.label.focus.colorto.splitto:	   #f9ad26
++ window.label.focus.border.appearance:
+window.label.focus.borderWidth:			2
+window.label.focus.borderColor:			black
++ window.label.focus.border.highlight:
++ window.label.focus.border.shadow:
+window.label.focus.font:				Gill Sans MT
+window.label.focus.fontHeight:			26
+window.label.focus.fontWeight:			normal
+window.label.focus.textColor:			white
+window.label.focus.shadowColor:			black
+window.label.focus.outlinecolor:        black
+window.label.focus.shadowx:			2
+window.title.focus.shadowy:			2
++ window.title.focus.shadowtint:
+window.label.marginWidth:			1
+window.label.focus.justify:	center
++ window.label.focus.interlace.color:
+
+! -- c. Focused Window Handle --
+
+window.handleHeight:				14
+window.handle.focus.appearance:			raised gradient vertical border
+!window.handle.focus.backgroundColor:
+window.handle.focus.color1:			#868d95
+window.handle.focus.color.splitto:	3e3224
+window.handle.focus.color2:			#4d565d
+window.handle.focus.colorto.splitto: #6f6b68
++ window.handle.focus.border.appearance:
+window.handle.focus.borderWidth:	 1
+window.handle.focus.borderColor:	 black
++ window.handle.focus.border.highlight:
++ window.handle.focus.border.shadow:
+window.handle.focus.marginWidth:  1
++ window.handle.width: (No)
++ window.handle.focus.interlace.color:
+
+! -- d. Focused Window Grips --
+
+window.grip.focus.appearance:			raised gradient vertical border 
+! window.grip.focus.backgroundColor:
+window.grip.focus.color1:			white
+window.grip.focus.color.splitto:	#fff798
+window.grip.focus.color2:			#b3bdc7
+window.grip.focus.colorto.splitto:	#ffc46c
++ window.grip.focus.border.appearance:
+window.grip.focus.borderWidth:		  1
+window.grip.focus.borderColor:		  black
++ window.grip.focus.border.highlight:
++ window.grip.border.shadow:
+window.grip.focus.marginWidth:	   3
++ window.grip.focus.interlace.color:
+
+! -- e. Focused Window Buttons --
+
+window.button.focus.appearance:			parentrelative
+! window.button.focus.backgroundColor: 
+window.button.focus.color1:				#76888a
+window.button.focus.color.splitto:	    #d1f0f3
+window.button.focus.color2:				#000000
+window.button.focus.colorto.splitto:    #9eb7bb
++ window.button.focus.border.appearance:
+window.button.focus.borderWidth:		1
+window.button.focus.borderColor:		black
++ window.button.focus.border.highlight:
++ window.button.focus.border.shadow:
+window.button.focus.foregroundColor:	 white
+window.button.focus.marginWidth:		1
++ window.button.focus.interlace.color:
+
+! -- f. Window Frames --
+
++ window.frame.focus.border.appearance:
+window.frame.borderWidth:
+window.frame.focus.borderColor:
+window.frame.unfocus.borderColor:
++ window.frame.focus.border.highlight:
++ window.frame.focus.border.shadow:
++ window.frame.focus.interlace.color:
++ window.client.padding.width:
++ window.client.padding.height:
++ padding.width:
++ padding.height:
++ window.active.client.color:
++ window.inactive.client.color:
++ osd.border.color:
+
+! -- UNFOCUSED WINDOWS --
+
+! -- a. Unfocused Window Title --
+
+window.title.unfocus.appearance:		raised gradient vertical border
+!window.title.unfocus.backgroundColor: 
+window.title.unfocus.color1:			#68727b
+window.title.unfocus.color.splitto:		#d7d6db
+window.title.unfocus.color2:			black
+window.title.unfocus.colorto.splitto:	#6b6b6b
++ window.title.unfocus.border.appearance:
+window.title.unfocus.borderWidth:		2
+window.title.unfocus.borderColor:		black
++ window.title.unfocus.border.highlight:
++ window.title.unfocus.border.shadow:
+window.title.marginWidth:			
++ window.title.unfocus.interlace.color:
+
+! -- b. Unfocused Window Label --
+
+window.label.unfocus.appearance:		 parentrelative
+window.label.unfocus.backgroundColor:
+window.label.unfocus.color1:		#979caa
+window.label.unfocus.color.splitto:
+window.label.unfocus.color2:		#f6f7fb
+window.label.unfocus.colorto.splitto:
++ window.label.unfocus.border.appearance:
+window.label.unfocus.borderWidth:		
+window.label.unfocus.borderColor:
++ window.label.unfocus.border.highlight:
++ window.label.unfocus.border.shadow:
+window.label.unfocus.font:			hoog0553-hybrid
+window.label.unfocus.fontHeight:		14
+window.label.unfocus.fontWeight:		normal
+window.label.unfocus.textColor:			#b3bdc7
+window.label.unfocus.shadowColor:		black
+window.label.unfocus.shadowx:			1
+window.label.unfocus.shadowy:			1
+window.label.unfocus.outlinecolor:	black
++ window.label.unfocus.shadowtint:
+window.label.marginWidth:
++ window.label.unfocus.interlace.color:
+
+! -- c. Unfocused Window Handle --
+
+
+window.handle.unfocus.appearance:		parentrelative
+!window.handle.unfocus.backgroundColor:
+window.handle.unfocus.color1:			#707d86
+window.handle.unfocus.color.splitto:	#f7b360
+window.handle.unfocus.color2:			#404950
+window.handle.unfocus.colorto.splitto:	#946b3f
+!+ window.handle.unfocus.border.appearance:
+window.handle.unfocus.borderWidth:		3
+window.handle.unfocus.borderColor:		black
+!+ window.handle.unfocus.border.highlight:
+!+ window.handle.unfocus.border.shadow:
+!window.handle.unfocus.marginWidth:
+!+ window.handle.width: (No)
+!+ window.handle.unfocus.interlace.color:
+
+! -- d. Unfocused Window Grips --
+
+window.grip.unfocus.appearance:			  raised gradient mirrorhorizontal border
+! window.grip.unfocus.backgroundColor:
+window.grip.unfocus.color1:			  #7b838e
+window.grip.unfocus.color.splitto:	  #f4ae56
+window.grip.unfocus.color2:			  #242829
+window.grip.unfocus.colorto.splitto:  #340C0A
++ window.grip.unfocus.border.appearance:
+window.grip.unfocus.borderWidth:	    1
+window.grip.unfocus.borderColor:	    black
++ window.grip.unfocus.border.highlight:
++ window.grip.unborder.shadow:
+window.grip.unfocus.marginWidth:
++ window.grip.unfocus.interlace.color:
+
+! -- e. Unfocused Window Buttons --
+
+window.button.unfocus.appearance:		raised gradient	pyramid	border
+!window.button.unfocus.backgroundColor: 
+window.button.unfocus.color1:		 #5a5152
+!window.button.unfocus.color.splitto: #fdb733
+window.button.unfocus.color2:		 #a06e77
+!window.button.unfocus.colorto.splitto: #cf742e
++ window.button.unfocus.border.appearance:
+window.button.unfocus.borderWidth:	   1
+window.button.unfocus.borderColor:		#7b838e
++ window.button.unfocus.border.highlight:
++ window.button.unfocus.border.shadow:
+window.button.unfocus.foregroundColor:	  #dfa95f
+window.button.unfocus.marginWidth:
++ window.button.unfocus.interlace.color:
+
+! -- 4. THE SLIT --
+
+slit.appearance:
+slit.backgroundColor:
+slit.color1:
+slit.color.splitto:
+slit.color2:
+slit.colorto.splitto:
++ slit.border.appearance:
+slit.borderWidth:
+slit.borderColor:
++ slit.border.highlight:
++ slit.border.shadow:
+slit.marginWidth:
++ slit.interlace.color:
+
+! -- 5. MISCELLANEOUS DECLARATIONS --
+
++ border.appearance:
+borderColor: 
+borderWidth:
++ border.highlight
++ border.shadow:
+bevelWidth:					2
+frameWidth:					2					
+handleWidth:					14
+
+! -- 6. BBPAGER DECLARATIONS --
+
+bbpager.frame.appearance:
+bbpager.frame.color1:
+bbpager.frame.color.splitto: 
+bbpager.frame.color2:
+bbpager.frame.colorto.splitto: 
++ bbpager.frame.interlace.color:
+
+bbpager.window.appearance:
+bbpager.window.color1:
+bbpager.window.color.splitto: 
+bbpager.window.color2:
+bbpager.window.colorto.splitto: 
+bbpager.window.interlace.color:
+
+bbpager.window.focus.appearance:
+bbpager.window.focus.color1:
+bbpager.window.focus.color.splitto: 
+bbpager.window.focus.color2:
+bbpager.window.focus.colorto.splitto: 
+bbpager.window.focus.interlace.color:
+

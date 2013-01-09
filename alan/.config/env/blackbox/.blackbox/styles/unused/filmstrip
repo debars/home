@@ -1,0 +1,88 @@
+! Title:	filmstrip
+! By:		Neil Short
+! Background by algorythm, http://algorythm.deviantart.com/
+
+toolbar:			Flat Solid
+toolbar.button:			Raised Gradient Vertical
+toolbar.button.pressed:	        Sunken Solid
+toolbar.clock:			Raised Solid
+toolbar.windowLabel		Raised Solid
+toolbar.label:			Raised Solid
+
+menu.title:		        Flat Gradient Vertical
+menu.hilite:		        Raised Solid
+menu.frame:		        Flat Gradient Crossdiagonal
+
+window.title.focus:		Flat Solid
+window.button.focus:		Raised Gradient Crossdiagonal
+window.button.focus.pressed:    Flat Solid
+window.label.focus:	        Raised Gradient Vertical
+window.grip.focus:  		Flat Gradient Vertical
+window.handle.focus:		Flat Gradient Vertical
+
+window.title.unfocus:		Flat Solid
+window.label.unfocus:	        Flat Gradient Vertical
+window.grip.unfocus:		Sunken Solid
+window.handle.unfocus:		Sunken Solid
+window.button.unfocus:		Flat Solid
+
+!  toolbar
+*.color:		#7c7a7b
+
+toolbar.color:			#151515
+toolbar.*.button.color:		#9d9d9d
+toolbar.*.button.colorTo:	#464646
+toolbar.*.button.pressed.color: #464646
+toolbar.*.textColor:		#151515
+toolbar.*.picColor:		black
+toolbar.justify:		center
+
+menu.title.color:		#5e4445
+menu.title.colorTo:		#4b191a
+menu.title.textColor:		#c08484
+menu.title.justify:             center
+menu.hilite.color:		#7c7a7b
+menu.frame.textColor:		#7c7a7b
+menu.hilite.textColor:		black
+menu.frame.color:		#626262
+menu.frame.colorTo:		#181818
+
+window.label.focus.color:	#4b191a
+window.label.focus.colorTo:	#943c3b
+window.button.focus.color:	#4b191a
+window.button.focus.colorTo:	#943c3b
+window.button.pressed.color:	#b84646
+window.grip.focus.color:        #661a1a
+window.grip.focus.colorTo:	#b36565
+window.handle.focus.color:      #1a1a1a
+window.handle.focus.colorTo:	#5a5a5a
+window.*.picColor:		#bc7d7c
+window.label.focus.textColor:	#bc7d7c
+window.title.focus.color:	#7c7a7b
+
+window.grip.unfocus.color:	#777777
+window.handle.unfocus.color:	#474747
+window.title.unfocus.color:     #323232
+window.*.unfocus.picColor:      #923838
+window.label.unfocus.textColor: #c08484
+window.label.unfocus.color:	#923838
+window.label.unfocus.colorTo:	#b67070
+window.button.unfocus.color:	#b67070
+
+! the following applies to everything except the toolbar
+*.justify:	        	right
+
+borderWidth:		0
+bevelWidth:		1
+handleWidth:		6
+frameWidth:		0	
+menu.bullet.position:	right
+
+! rootCommand:		bsetbg -t ~/.blackbox/backgrounds/sentinel.png
+
+!this theme was originally developed around the background "sentinel" by
+! http://liquifex.deviantart.com/
+! The original background can be found at http://www.deviantart.com/deviation.php?id=335749
+rootCommand:		bsetbg -f ~/.blackbox/backgrounds/filmstrip.jpg
+
+*Font: lucidasans-bold-14

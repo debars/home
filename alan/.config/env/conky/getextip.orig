@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -f index.html 1>/dev/null 2>&1
+wget http://whatismyip.org/ 1>/dev/null 2>&1
+cat index.html

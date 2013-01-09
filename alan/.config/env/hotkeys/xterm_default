@@ -1,0 +1,2 @@
+#!/bin/bash
+xterm -bg "navajo white" -fg black -geometry 132x60

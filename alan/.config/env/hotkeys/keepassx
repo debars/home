@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/keepassx ~/.config/env/mydb/keepassx/kkeepassx.kdb

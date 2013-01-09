@@ -1,0 +1,86 @@
+background yes
+use_xft yes
+xftfont 123:size=8
+xftalpha 0.1
+update_interval 0.5
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 250 5
+maximum_width 400
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color gray
+default_shade_color red
+default_outline_color green
+alignment top_right
+gap_x 10
+gap_y 10
+no_buffers no
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+override_utf8_locale yes
+use_spacer right
+text_buffer_size 256
+
+TEXT
+
+${font Arial:bold:size=10}${color Tan1}SYSTEM ${color DarkSlateGray} ${hr 2}
+$font${color DimGray}$sysname $kernel
+$machine$alignr${execi 3600 cat /proc/cpuinfo|grep "model name"|cut -d\: -f2}
+$alignr${freq_g 1}Ghz
+Uptime $alignr${uptime}
+File System $alignr${fs_type}
+${execi 3600 lsb_release -d|cut -f 2}
+
+${font Arial:bold:size=10}${color Tan1}PROCESSORS ${color DarkSlateGray}${hr 2}
+$font${color DimGray}CPU1  ${cpu cpu1}% ${cpubar cpu1}
+
+${font Arial:bold:size=10}${color Tan1}MEMORY ${color DarkSlateGray}${hr 2}
+$font${color DimGray}MEM $alignc $mem / $memmax $alignr $memperc%
+$membar
+
+${font Arial:bold:size=10}${color Tan1}HDD ${color DarkSlateGray}${hr 2}
+$font${color DimGray}/home $alignc ${fs_used /home} / ${fs_size /home} $alignr ${fs_free_perc /home}%
+${fs_bar 3 /home}
+NAS_media: $alignr ${fs_free /media/shares/readynas/media} / ${fs_size /media/shares/readynas/media}
+${fs_bar 3 /media/shares/readynas/media}
+USB_HDD_1: $alignr ${fs_free /media/shares/readynas/USB_HDD_1} / ${fs_size /media/shares/readynas/USB_HDD_1}
+${fs_bar 3 /media/shares/readynas/USB_HDD_1}
+USB_HDD_2: $alignr ${fs_free /media/shares/readynas/USB_HDD_2} / ${fs_size /media/shares/readynas/USB_HDD_2}
+${fs_bar 3 /media/shares/readynas/USB_HDD_2}
+
+${font Arial:bold:size=10}${color Tan1}TOP PROCESSES ${color DarkSlateGray}${hr 2}
+${color DimGray}$font${top_mem name 2}${alignr}${top mem 2} %
+$font${top_mem name 3}${alignr}${top mem 3} %
+$font${top_mem name 4}${alignr}${top mem 4} %
+$font${top_mem name 5}${alignr}${top mem 5} %
+
+${font Arial:bold:size=10}${color Tan2}NETWORK ${color DarkSlateGray}${hr 2}
+$font${color DimGray}IP on eth0 $alignr ${addr eth0}
+Down $alignr ${downspeed eth0} kb/s
+Up $alignr ${upspeed eth0} kb/s
+Downloaded: $alignr  ${totaldown eth0}
+Uploaded: $alignr  ${totalup eth0}
+
+External IP$alignr${execi 3600 ~/.config/conkyrc/getextip}
+
+${font Arial:bold:size=10}${color Tan2}WEATHER ${color DarkSlateGray}${hr 2}
+${font}${color DimGray}
+${execi 1800 ~/.config/conkyrc/weather.sh 80538}
+
+${font Arial:bold:size=10}${color Tan2}TIMEZONES ${color DarkSlateGray}${hr 2}
+${font}${color DimGray}
+Hong Kong:${tztime Asia/Hong_Kong %H:%M   %a %b %d}
+London:${tztime Europe/London %H:%M   %a %b %d}
+New York:${tztime America/New_York %H:%M   %a %b %d}
+Winnipeg:${tztime Canada/Central %H:%M   %a %b %d}
+Denver:${tztime America/Denver %H:%M   %a %b %d}
+Vancouver:${tztime America/Vancouver %H:%M   %a %b %d}
+

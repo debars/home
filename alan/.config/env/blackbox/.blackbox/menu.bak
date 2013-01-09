@@ -1,0 +1,86 @@
+#
+# SuSE Blackbox menu file - Henne Vogelsang
+#
+# Version 0.1	08.04.2003
+#
+# http://www.suse.de/feedback
+
+[begin] (SuSE Blackbox Menu)
+
+	[submenu] (Xterms) {}
+		[exec] (xterm 80x40) {xterm -geometry 80x40}
+		[exec] (xterm 80x20) {xterm -geometry 80x20}
+		[exec] (xterm 132x20) {xterm -geometry 132x20}
+		# see /usr/lib/X11/rgb.txt for color choices
+		[exec] (xterm 80x20 darkslategray on ghostwhite) {xterm -fg darkslategray -bg ghostwhite -geometry 80x20}
+		[exec] (xterm 80x10 darkslategray on ghostwhite) {xterm -fg darkslategray -bg ghostwhite -geometry 80x10}
+		[exec] (xterm 80x20 navy on cornsilk) {xterm -fg navy -bg cornsilk -geometry 80x20}
+		[exec] (xterm 80x10 navy on cornsilk) {xterm -fg navy -bg cornsilk -geometry 80x10}
+	[end]
+
+	[exec] (Firefox) {/opt/firefox/firefox}
+
+	[exec] (Thunderbird) {/opt/thunderbird/thunderbird}
+
+	[submenu] (Tools) {}
+		[exec] (Etherape) {sudo etherape}
+		[exec] (Ethereal) {sudo ethereal}
+		[exec] (Calendar) {korganizer}
+		[exec] (Calculator) {kcalc}
+		[exec] (pdf viewer) {/home/alan/bin/acroread}
+	[end]
+
+	[submenu] (Office) {}
+		[submenu] (Word Processing) {}
+			[exec] (OpenOffice.org Writer) {OOo-writer}
+			[exec] (AbiWord) {abiword}
+			[exec] (TeXmacs) {texmacs}
+		[end]
+		[submenu] (Spreadsheet) {}
+			[exec] (OpenOffice.org Calc) {OOo-calc}
+		[end]
+		[submenu] (Presentation) {}
+			[exec] (OpenOffice.org Impress) {OOo-impress}
+		[end]
+		[submenu] (Drawing) {}
+			[exec] (OpenOffice.org Draw) {OOo-draw}
+			[exec] (GIMP) {gimp}
+			[exec] (Diagram Editor) {dia}
+		[end]
+	[end]
+
+   [submenu] (Multimedia) {}
+		[submenu] (Audio) {}
+			[exec] (Xmms) {xmms}
+			[exec] (grip) {/opt/gnome/bin/grip}
+			[exec] (TerminatorX) {terminatorX}
+			[exec] (Alsamixer) {alsamixergui}
+			[exec] (Gamix) {gamix}
+        	[end]
+		[submenu] (TV/Video) {}
+			[exec] (RealPlayer) {realplay}
+		[end]
+		[exec] (cd/dvd burn) {sudo /opt/kde3/bin/k3b}
+   [end]
+
+	[submenu] (Administration) {}
+		[exec] (YaST) {xterm -title "Please Enter the Root Password" -geometry 40x5 -e "sux - -c yast2"}
+		[exec] (SaX2) {xterm -title "Please Enter the Root Password" -geometry 40x5 -e "sux - -c sax2"}
+		[exec] (Root Xterm) {xterm -title "Please Enter the Root Password" -bg red -fg black -e sux -}
+	[end]
+
+        [submenu] (Blackbox) {}
+                [config] (Configuration)
+                [workspaces] (Workspace)
+                [submenu] (Styles) {Choose a style...}
+                        [stylesdir] (/home/alan/.blackbox/styles)
+                [end]
+        [end]
+
+	[exec] (bbstart) {/home/alan/bin/bbstart}
+	[exec] (bbconf)  {bbconf}
+	[exec] (Run Command) {bbrun -a -w}
+	[exec] (Lock Screen) {xlock}
+	[restart] (Restart) {}
+	[exit] (Logout)
+[end]

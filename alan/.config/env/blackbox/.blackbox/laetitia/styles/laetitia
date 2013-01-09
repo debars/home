@@ -1,0 +1,114 @@
+# BlackBox/fluxbox Style File
+# Meg Ryan by Cyrus_a_Virus
+
+toolbar:			raised gradient diagonal interlaced
+toolbar.color:			rgb:83/5c/4d
+toolbar.colorTo:		rgb:de/aa/b7
+
+toolbar.button:			raised gradient diagonal
+toolbar.button.color:		rgb:83/5c/4d
+toolbar.button.colorTo:		rgb:de/aa/b7
+toolbar.button.picColor:	black
+
+toolbar.button.pressed:		sunken gradient diagonal interlaced
+toolbar.button.pressed.color:	rgb:83/5c/4d
+toolbar.button.pressed.colorTo:	rgb:de/aa/b7
+
+toolbar.clock:			raised gradient diagonal
+toolbar.clock.color:		rgb:83/5c/4d
+toolbar.clock.colorTo:		rgb:de/aa/b7
+toolbar.clock.textColor:	rgb:00/00/00
+
+toolbar.label:			raised gradient diagonal interlaced
+toolbar.label.color:		rgb:83/5c/4d
+toolbar.label.colorTo:		rgb:de/aa/b7
+toolbar.label.textColor:	rgb:00/00/00
+
+toolbar.windowLabel:		sunken gradient diagonal bevel
+toolbar.windowLabel.color:	rgb:83/5c/4d
+toolbar.windowLabel.colorTo:	rgb:de/aa/b7
+toolbar.windowLabel.textColor:	black
+
+toolbar.justify:		left
+
+
+menu.title:			raised gradient diagonal 
+menu.title.color:		rgb:83/5c/4d
+menu.title.colorTo:		rgb:de/aa/b7
+menu.title.textColor:		rgb:00/00/00
+menu.title.justify:		left
+
+menu.frame:			raised gradient diagonal interlaced
+menu.frame.color:		rgb:83/5c/4d
+menu.frame.colorTo:		rgb:de/aa/b7
+menu.frame.textColor:		rgb:00/00/00
+menu.frame.justify:		left
+
+menu.hilite:			flat horizontal gradient interlaced
+menu.hilite.color:		rgb:83/5c/4d
+menu.hilite.colorTo:		rgb:de/aa/b7
+menu.hilite.textColor:		black
+
+menu.bullet:			arrow
+menu.bullet.position:		right
+
+
+window.title.focus:	        raised gradient diagonal interlaced	
+window.title.focus.color:	rgb:83/5c/4d
+window.title.focus.colorTo:	rgb:de/aa/b7
+window.title.unfocus:		raised vertical gradient interlaced
+window.title.unfocus.color:	rgb:de/aa/b7
+window.title.unfocus.colorTo:	rgb:83/5c/4d
+
+window.label.focus:		raised gradient diagonal interlaced
+window.label.focus.color:	rgb:83/5c/4d
+window.label.focus.colorTo:	rgb:de/aa/b7
+window.label.focus.textColor:	rgb:00/00/00
+window.label.unfocus:		sunken gradient diagonal bevel
+window.label.unfocus.color:	rgb:de/aa/b7
+window.label.unfocus.colorTo:	rgb:83/5c/4d
+window.label.unfocus.textColor:	rgb:ff/ff/ff
+
+window.button.focus:		raised gradient diagonal
+window.button.focus.color:	rgb:83/5c/4d
+window.button.focus.colorTo:	rgb:de/aa/b7
+window.button.focus.picColor:	white
+window.button.unfocus:		ParentRelative
+window.button.unfocus.picColor:	black
+window.button.pressed:		sunken gradient diagonal interlaced
+window.button.pressed.color:	rgb:83/5c/4d
+window.button.pressed.colorTo:	rgb:de/aa/b7
+
+window.frame.focus:		raised gradient diagonal
+window.frame.focus.color:	rgb:83/5c/4d
+window.frame.focus.colorTo:	rgb:de/aa/b7
+window.frame.unfocus:		sunken vertical gradient bevel
+window.frame.unfocus.color:	rgb:de/aa/b7
+window.frame.unfocus.colorTo:	rgb:83/5c/4d
+window.handle.focus:		raised gradient diagonal
+window.handle.focus.color:	rgb:83/5c/4d
+window.handle.focus.colorTo:	rgb:de/aa/b7
+window.handle.unfocus:		raised vertical gradient interlaced
+window.handle.unfocus.color:	rgb:de/aa/b7
+window.handle.unfocus.colorTo:	rgb:83/5c/4d
+
+window.grip.focus:		sunken gradient diagonal interlaced
+window.grip.focus.color:	rgb:83/5c/4d
+window.grip.focus.colorTo:	rgb:de/aa/b7
+
+window.grip.unfocus:		raised gradient diagonal interlaced
+window.grip.unfocus.color:	rgb:de/aa/b7
+window.grip.unfocus.colorTo:	rgb:83/5c/4d
+
+window.justify:			center
+
+
+borderColor:			rgb:83/5c/4d
+
+bevelWidth:			3
+borderWidth:			2
+handleWidth:			5
+
+rootCommand:	wmsetbg --scale ~/.fluxbox/backgrounds/laetitia.jpg
+
+*Font:	-*-lucida-bold-r-*-*-10-*-*-*-*-*-*-*

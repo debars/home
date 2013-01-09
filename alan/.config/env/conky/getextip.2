@@ -1,0 +1,9 @@
+#!/bin/bash
+
+available=`ping -c 1 whatismyip.org|grep icmp_seq`
+
+[[ -z "$available" ]] && {
+	echo "w.x.y.z"
+} || {
+	wget -o /tmp/t.log -O - http://whatismyip.org/
+}

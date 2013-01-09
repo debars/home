@@ -1,0 +1,55 @@
+#
+
+[begin] (Blackbox Menu)
+
+   [submenu] (Xterms) {}
+      #-font -adobe-courier-medium-r-*-*-14-*-*-*-*-*-*-*
+      # see /usr/lib/X11/rgb.txt for color choices
+      [exec] (xterm navajo) {xterm -bg "navajo white" -fg black -geometry 132x60}
+      [exec] (aterm default) {aterm -geometry 132x40}
+      [exec] (aterm navajo) {xterm -bg "navajo white" -fg black -geometry 132x40}
+   [end]
+
+   [submenu] (Development) {}
+   		[exec] (eclipse) {/home/alan/tools/java/eclipse/eclipse}
+   		[exec] (rm_vizmet)   {edrmviz}
+   		[exec] (rm_tear)     {edtear}
+      [exec] (sun one studio) {/home/alan/s1studio_jdk/s1studio/bin/runide.sh}
+   		[exec] (debugger)		 {gdbg}
+   [end]
+
+   [exec] (Chrome) {/usr/bin/chromium}
+
+   [submenu] (Tools) {}
+         [exec] (gcalc) {gnome-calculator}
+         [exec] (pdf viewer) {/home/alan/bin/acroread}
+         [exec] (xviewer)    {xzgv}
+         [exec] (font select) {/usr/bin/X11/xfontsel}
+         [exec] (Etherape)   {sudo etherape}
+         [exec] (Wireshark)   {sudo wireshark}
+   [end]
+
+   [submenu] (Office) {}
+      [exec] (Writer) {libreoffice}
+   [end]
+
+   [submenu] (Multimedia) {}
+      [submenu] (Audio) {}
+         [exec] (Xmms) {xmms}
+      [end]
+   [end]
+
+   [submenu] (Blackbox) {}
+      [config] (Configuration)
+      [workspaces] (Workspace)
+      [submenu] (Styles) {Choose a style...}
+         [stylesdir] (/home/alan/.blackbox/styles)
+      [end]
+      [exec] (bbconf)  {bbconf}
+   [end]
+
+   [exec] (Run Command) {bbrun -a -w}
+   [exec] (Lock Screen) {xlock}
+   [restart] (Restart) {}
+   [exit] (Logout)
+[end]

@@ -1,0 +1,61 @@
+
+toolbar:				Raised Radial   Bevel1
+toolbar.label:				Raised Radial   Bevel1
+toolbar.clock:				Raised Radial   Bevel1
+toolbar.button:                         Raised Radial   Bevel1
+toolbar.button.pressed:			Sunken Radial   Bevel1
+
+toolbar*color:				rgb:a0/87/70
+toolbar*colorTo:			rgb:2/1/0
+toolbar.label.color:			rgb:2/1/0
+toolbar.label.colorTo:			black
+toolbar.button.color:			rgb:a0/87/70
+toolbar.button.colorTo:			rgb:2/1/0
+toolbar.button.pressed.color:		black
+toolbar.button.pressed.colorTo:		rgb:c0/80/50
+toolbar.clock.color:			rgb:2/1/0
+toolbar.clock.colorTo:			black
+toolbar.textColor:			grey90
+
+window.focus:				Raised Linear   Gradient Bevel1
+window.unfocus:				Raised Linear   Gradient Bevel1
+window.focus.button:			Raised Linear   Gradient Bevel1
+window.unfocus.button:			Raised Linear   Gradient Bevel1
+window.button.pressed:			Sunken Linear   Gradient Bevel1
+window.frame:				Raised Solid               Bevel1
+
+window.frame.color:			rgb:a0/87/70
+window.focus*color:			rgb:a0/87/70
+window.focus*colorTo:			rgb:3/2/1
+window.unfocus*color:			rgb:a0/87/70
+window.unfocus*colorTo:			rgb:3/2/1
+window.focus.textColor:			white
+window.unfocus.textColor:		grey
+window.button.pressed.color:		black
+window.button.pressed.colorTo:		rgb:a0/87/70
+
+menu.title:				Flat Linear Gradient Bevel2
+menu.frame:				Raised Vertical   Gradient Bevel1
+
+menu.title.color:			rgb:a0/87/70
+menu.title.colorTo:			rgb:3/2/1
+menu.frame.color:			rgb:a0/87/70
+menu.frame.colorTo:			rgb:3/2/1
+menu.frame.highlightColor:		rgb:2/1/0
+menu.title.textColor:			white
+menu.frame.textColor:			grey
+menu.frame.hiTextColor:			white
+
+borderColor:				rgb:4/3/2
+handleWidth:				9
+bevelWidth:				4
+
+titleJustify:				CenterJustify
+menuJustify:				LeftJustify
+moveStyle:				Transparent
+
+titleFont:     -*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
+menuFont:      -*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
+
+rootCommand:  xsetbg ~/.blackbox/backgrounds/ScratchCat.jpg
+

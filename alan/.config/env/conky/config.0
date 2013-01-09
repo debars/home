@@ -1,0 +1,274 @@
+# Text alignment, other possible values are commented
+#alignment top_left
+alignment top_right
+#alignment top_middle
+#alignment bottom_left
+#alignment bottom_right
+#alignment bottom_middle
+#alignment middle_left
+#alignment middle_right
+
+# set to yes if you want Conky to be forked in the background
+background yes
+
+# border margins
+border_margin 1
+
+# border width
+border_width 1
+
+# pre-define color variables to use in text section (optional)
+#color0 000066
+#color1 7f8ed3
+#color2 5b6dad
+#color3 202020
+#color4 60aa60
+#color5 701070
+
+color0 000066
+color1 9faef3
+color2 5b6dad
+color3 701010
+color4 60aa60
+color5 701070
+
+# number of cpu samples to average
+# set to 1 to disable averaging
+cpu_avg_samples 1
+
+# If true, cpu in top will show usage of one processor's power. If
+# false, cpu in top will show the usage of all  processors'  power
+# combined.
+top_cpu_separate true
+
+# Default colors and also border colors
+default_color white
+default_shade_color black
+default_outline_color black
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Draw borders around text
+draw_borders no
+
+# Draw borders around graphs
+draw_graph_borders yes
+
+# Draw outlines?
+draw_outline no
+
+# Draw shades?
+draw_shades yes
+
+# X font when Xft is disabled, you can pick one with program xfontsel
+#font 5x7
+font 6x10
+#font 7x13
+#font 8x13
+#font 9x15
+#font *mintsmild.se*
+#font -*-*-*-*-*-*-34-*-*-*-*-*-*-*
+
+# Use Xft?
+#use_xft yes
+use_xft no
+
+# Xft font when Xft is enabled
+xftfont Bitstream Vera Sans Mono:size=6.5
+#xftfont Terminus:size=8
+#xftfont DejaVu Sans:size=8
+
+# Text alpha when using Xft
+xftalpha 1.0
+
+# Gap between borders of screen and text
+# same thing as passing -x or -y at command line
+gap_x 1
+gap_y 1
+
+
+# How  strict  should if_up be when testing an interface for being
+# up? The value is one of up, link or address, to  check  for  the
+# interface being solely up, being up and having link or being up,
+# having link and an assigned IP address.
+if_up_strictness link
+
+# Default global IMAP server. Arguments are: "host user  pass  [-i
+# interval]  [-f folder] [-p port] [-e command] [-r retries]". De-
+# fault port is 143, default folder is 'INBOX',  default  interval
+# is  5 minutes, and default number of retries before giving up is
+# 5. If the password is supplied as '*', you will be  prompted  to
+# enter the password when Conky starts.
+#imap
+
+# Mail spool for mail checking
+#mail_spool
+
+# Allow  each  port monitor to track at most this many connections
+# (if 0 or not set, default is 256)
+#max_port_monitor_connections
+
+# Maximum number of special things, e.g. fonts,  offsets,  aligns,
+# etc. (default is 512)
+#max_specials
+
+# Maximum size of user text buffer, i.e. layout below TEXT line in
+# config file (default is 16384 bytes)
+#max_user_text bytes
+
+# Size of the standard text buffer (default is  256  bytes).  This
+# buffer  is used for intermediary text, such as individual lines,
+# output from $exec vars, and various other variables.  Increasing
+# the  size  of this buffer can drastically reduce Conky's perfor-
+# mance, but will allow for more text display  per  variable.  The
+# size  of this buffer cannot be smaller than the default value of
+# 256 bytes.
+text_buffer_size 256
+
+# Maximum width of window
+maximum_width 110
+
+# Minimum size of window
+#   minimum_size width (height)
+minimum_size 162 5
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 1
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale no
+
+# Create own window instead of using desktop (required in nautilus)
+own_window yes
+
+# Manually set the WM_CLASS name. Defaults to "Conky".
+#own_window_class
+
+# If  own_window_transparent no, set a specified background colour
+# (defaults to black). Takes either a hex  value  (#ffffff)  or  a
+# valid RGB name (see /usr/lib/X11/rgb.txt)
+own_window_colour black
+
+# If  own_window is yes, you may use these window manager hints to
+# affect the way Conky displays.  Notes: Use own_window_type desk-
+# top  as another way to implement many of these hints implicitly.
+# If you use own_window_type override, window manager  hints  have
+# no meaning and are ignored.
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Manually  set the window name. Defaults to "<hostname> - conky".
+#own_window_title
+
+# Boolean, set pseudo-transparency?
+own_window_transparent yes
+
+# if own_window is yes, you may specify type normal, desktop, dock
+# or override (default: normal).  Desktop windows are special win-
+# dows that have no window decorations; are always visible on your
+# desktop;  do not appear in your pager or taskbar; and are sticky
+# across all workspaces.  Override windows are not under the  con-
+# trol of the window manager. Hints are ignored. This type of win-
+# dow can be useful for certain situations.
+own_window_type normal
+
+# Pad percentages to this many decimals (0 = no padding)
+pad_percents 0
+
+# Shortens units to a single character (kiB->k, GiB->G, etc.). De-
+# fault is off.
+short_units off
+
+# Shows the maximum value in scaled graphs.
+show_graph_scale true
+
+# Shows the time range covered by a graph.
+show_graph_range false
+
+# Border stippling (dashing) in pixels
+stippled_borders 8
+
+# Total  number of times for Conky to update before quitting. Zero
+# makes Conky run forever
+total_run_times 0
+
+# Update interval in seconds
+update_interval 2
+
+# Boolean value, if true, text is rendered in upper case
+uppercase false
+
+# Adds spaces around certain objects to stop them from moving oth-
+# er things around. Arguments are left, right, and none (default).
+# The  old  true/false  values  are  deprecated  and  default   to
+# right/none  respectively.  Note  that this only helps if you are
+# using a mono font, such as Bitstream Vera Sans Mono.
+use_spacer none
+
+
+
+# stuff after 'TEXT' will be formatted on screen
+
+#${font Bitstream Vera Sans Mono:size=10.5}${color1}${alignc}${time %T}
+#${alignc}${color2}${exec cal | grep -E '[0-9a-zA-Z]'}
+#${font Aerial:style=Bold:pixelsize=14}${execi 60 date +"%B %Y" | tr "[:lower:]" "[:upper:]"}${font Snap.se:size=8} ${hr 1 }
+#${execpi 60 DJS=`date +%_d`; cal | sed '1d' | sed '/./!d' | sed 's/$/                     /' | fold -w 21 | sed -n '/^.\{21\}/p' | sed 's/^/${alignc} /' | sed /" $DJS " s/" $DJS "/" "'${color1}'"$DJS"'${color0}'" "/}
+#${execpi 60 DJS=`date +%_d`; cal | sed -n -e 's/[ ]*$//' -e 's/^/${alignc}/' -e '/alignc}[ ]*[a-zA-Z0-9]/p'}
+
+TEXT
+${font Bitstream Vera Sans Mono:size=12}${color4}$nodename ${hr 3}${font}
+${font Bitstream Vera Sans Mono:size=10.5:italic}${color1}${alignc}${time %T}${font}
+${color2}${execpi 1 DJS=`date +%_d`;eval "cal | sed -n -e 's/^/\${alignc}/' -e 's/"$DJS"/\${color1}"$DJS"\${color2}/' -e '/\${alignc}[ ]*[a-zA-Z0-9]/p'"}
+${color5}Sysinfo ${hr 1}
+${color2}$kernel
+${color2}Uptime ${color1}$uptime
+${color2}Load ${color1}$loadavg
+${color2}AC Adapter ${color1}${acpiacadapter}
+${color2}Temp ${color1}${acpitemp} ${color2}C
+${color5}CPU info ${hr 1}
+${color2}CPU0 ${color1}${freq 1} MHz ${alignr}${color2}${cpubar cpu1 6,40}
+${color3} ${cpugraph normal cpu1 20,105 000066 7f8ed3}
+${color5}Memory ${hr 1}
+${color2}RAM ${color1}$mem/$memmax
+${color2} ${membar}
+${color2}Swap ${color1}$swap/$swapmax
+${color2} ${swapbar}
+${color5}Processes ${hr 1}
+${alignc}${color1}$processes ${color2}total, ${color1}${running_processes} ${color2}running
+${color2}                 ${color2}CPU%${color2}  mem%
+${color4}${top name 1}${top cpu 1}${top mem 1}
+${color1}${top name 2}${top cpu 2}${top mem 2}
+${color1}${top name 3}${top cpu 3}${top mem 3}
+${color1}${top name 4}${top cpu 4}${top mem 4}
+${color1}${top name 5}${top cpu 5}${top mem 5}
+${color2}                 ${color2}MEM%  cpu%
+${color4}${top_mem name 1}${top_mem mem 1}${top_mem cpu 1}
+${color1}${top_mem name 2}${top_mem mem 2}${top_mem cpu 2}
+${color1}${top_mem name 3}${top_mem mem 3}${top_mem cpu 3}
+${color1}${top_mem name 4}${top_mem mem 4}${top_mem cpu 4}
+${color1}${top_mem name 5}${top_mem mem 5}${top_mem cpu 5}
+${color5}Routing ${hr 1}
+${color2}GW ${color1}${gw_ip}${color2} ${color1}${gw_iface}
+${color2}DNS1 ${color1}${nameserver 0}
+${color2}DNS2 ${color1}${nameserver 1}
+${color5}Network adapters ${hr 1}${if_up eth0}
+${color4}eth0 ${color2}${color1}${addrs eth0} ${color4}${hr 1}
+${color2}#TCP Conn ${color1}${tcp_portmon 1 65535 count}
+${color2}Dwn ${color1}${downspeed eth0}${color2}${alignr}Up ${color1}${upspeed eth0} ${color2}KiB
+${color3}${downspeedgraph eth0 14,52 202020 7f8ed3} ${color3}${upspeedgraph normal eth0 14,52 202020 7f8ed3}${endif}${if_up eth1}
+${color4}eth1 ${color2}${color1}${addrs eth1} ${color4}${hr 1}
+${color2}#TCP Conn ${color1}${tcp_portmon 1 65535 count}
+${color2}ESSID ${color1}${wireless_essid eth1}
+${color2}AP MAC ${color1}${wireless_ap eth1}
+${color2}Mode ${color1}${wireless_mode eth1} ${alignr}${color2}Rate ${color1}${wireless_bitrate eth1}
+${color2}Link Qual ${color1}${wireless_link_qual_perc eth1}
+${color2}Dwn ${color1}${downspeed eth1}${color2}${alignr}Up ${color1}${upspeed eth1} KiB
+${color3}${downspeedgraph normal eth1 14,52 202020 7f8ed3} ${alignr}${color3}${upspeedgraph normal eth1 14,52 202020 7f8ed3}
+${endif}${color5}FS free space ${hr 1}
+${color4}/${color1}${fs_free /}${color2} ${fs_bar /}${if_mounted /media/disk/}
+${color4}disk${color1}${fs_free /media/disk/} ${color2}${fs_bar /media/disk/}${endif}${if_mounted /media/disk-1/}
+${color4}disk-1${color1}${fs_free /media/disk-1/} ${color2}${fs_bar /media/disk-1/}${endif}

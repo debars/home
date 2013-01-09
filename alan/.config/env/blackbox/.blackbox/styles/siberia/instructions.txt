@@ -1,0 +1,11 @@
+WALLPAPER, BLACKBOX BUILD, BBLEANBAR, and BBLEANSKIN included.
+The wallpaper is "Siberia" by Dogbox Studio (http://www.dogbox-studio.com) with their permission. Dogbox Studio resized their original wall for this style and I thank them for their time and effort.
+Before using the style, please set all Blackbox Alpha Transparency options at 115 - otherwise you will be left with a really strange looking color-wise desktop.
+After replacing your older Blackbox, BBLeanBar, and BBLeanSkin builds with the ones provided in the zip file, restart. The wallpaper should be put in C:\Wallpaper2. Please note me for more instructions. ATTENTION: These builds are for Blackbox users that already have rc files in their respective folders. Everyone else who wishes to try Blackbox for the first time should download the whole enchilada from nocd5's site, or e-mail me for instructions.
+If you want to learn more about Blackbox, I suggest you read my tutorials:
+http://pitkon.deviantart.com/journal/3647326/ tutorial part I - the shell
+http://pitkon.deviantart.com/journal/3806695/ tutorial part II - the plugins
+http://pitkon.deviantart.com/journal/3898173/ tutorial part III - the styles
+They are pretty much outdated by now (I MUST find time to bring them up to date... lol) but they will give you a general idea. And, of course, feel free to ask if u need more info or instructions :)
+
+

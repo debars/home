@@ -1,0 +1,97 @@
+! ct1 blackbox style
+
+toolbar.button.picColor:	#622b24
+toolbar.button: parentrelative
+
+toolbar.button.pressed.color:	#768396
+toolbar.button.pressed:	Sunken Flat
+
+toolbar.clock.textColor:	#622b24
+toolbar.clock:	parentrelative
+
+toolbar.color:	#768396
+toolbar.colorTo:	#e2c09d
+toolbar.textColor:	#622b24
+toolbar.justify:	Right
+toolbar:	Raised Bevel1 Gradient Diagonal
+
+toolbar.label.textColor:	#622b24
+toolbar.label:	parentrelative
+
+toolbar.windowLabel.textColor:	#622b24
+toolbar.windowLabel:	parentrelative
+
+window.button.pressed.color:	#768396
+window.button.pressed:	Sunken Bevel2 Solid
+
+window.button.focus.color:	#e2c09d
+window.button.focus.picColor:	#622b24
+window.button.focus:	parentrelative
+
+window.button.unfocus.color:	#e2c09d
+window.button.unfocus.picColor:	#622b24
+window.button.unfocus:	parentrelative
+
+window.frame.focus.color:	#e2c09d
+window.frame.focus:	Flat Solid
+
+window.frame.unfocus.color:	#e2c09d
+window.frame.unfocus:	Flat Solid
+
+window.grip.focus.color:	#e2c09d
+window.grip.focus:	parentrelative
+
+window.grip.unfocus.color:	#e2c09d
+window.grip.unfocus:	parentrelative
+
+window.handle.focus.color:	#e2c09d
+window.handle.focus:	Flat Solid
+
+window.handle.unfocus.color:	#768396
+window.handle.unfocus:	Flat Solid
+
+window.justify:	Center
+window.label.focus.color:	#e2c09d
+window.label.focus.textColor:	#622b24
+window.label.focus:	parentrelative
+
+window.label.unfocus.color:	#e2c09d
+window.label.unfocus.textColor:	#622b24
+window.label.unfocus:	parentrelative
+
+window.title.focus.color:	#e2c09d
+window.title.focus:	Flat Solid
+
+window.title.unfocus.color:	#768396
+window.title.unfocus.colorTo:	#000000
+window.title.unfocus:	Flat Solid
+
+menu.frame.color:	#768396
+menu.frame.colorTo:	#e2c09d
+menu.frame.textColor:	#622b24
+menu.frame.font:	helvetica
+menu.frame.justify:	Center
+menu.frame:	Flat Gradient Diagonal
+menu.frame.disableColor:	#768396
+
+menu.hilite.color:	#e2c09d
+menu.hilite.colorTo:	#e2c09d
+menu.hilite.textColor:	#622b24
+menu.hilite:	Flat Solid
+
+menu.title.color:	#768396
+menu.title.colorTo:	#e2c09d
+menu.title.textColor:	#622b24
+menu.title.justify:	Center
+menu.title:	Flat Gradient Diagonal
+
+borderColor:	#768396
+
+bevelWidth:	1
+handleWidth:	2
+borderWidth:	1
+
+menu.bullet:	Triangle
+menu.bullet.position:	Right
+
+rootCommand:	bsetbg ~/.blackbox/backgrounds/ct1.jpg
